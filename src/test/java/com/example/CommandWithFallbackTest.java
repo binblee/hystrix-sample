@@ -1,6 +1,5 @@
 package com.example;
 
-import com.netflix.hystrix.HystrixCommand;
 import com.netflix.hystrix.HystrixCommandKey;
 import com.netflix.hystrix.HystrixCommandMetrics;
 import com.netflix.hystrix.strategy.concurrency.HystrixRequestContext;
@@ -9,7 +8,6 @@ import org.junit.runner.RunWith;
 import org.springframework.boot.test.SpringApplicationConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import java.util.concurrent.Future;
 
 import static org.junit.Assert.assertEquals;
 
